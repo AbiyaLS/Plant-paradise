@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import image1 from './style/image1.png'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
     <main class="bg-container">
      <div className='bg-image'></div>
     </main>
+    <Footer/>
     </div>
   )
 }

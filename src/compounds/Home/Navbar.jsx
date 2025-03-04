@@ -7,22 +7,23 @@ export default function Navbar() {
       <div className='nav-left'>Plant Paradise</div>
       <div >
         <ul className='nav-link'>
-          <li>Home</li>
-          <li>Plants</li>
-          <li>About</li>
-          <li>Contact Us</li>
-          <button className="button">Login</button>
+        <li><a href="/">Home</a></li>
+        <li><a href="/plants">Plants</a></li>
+        <li><a href="/about">About</a></li>
+       <li><a href="/contact">Contact Us</a></li>
+        
         </ul>
-        {/* <button className="button">Login</button> */}
       </div>
       <div className='nav-right'>
-      {/* <button className="button">Login</button> */}
+     
         <div className='search-container'>
           <input type='text' placeholder='Search...'/>
-          <FaSearch className="search-icon"/>
+         <FaSearch className="search-icon"/>
         </div>
-        <FaShoppingCart className="icon" />
-        <FaUser className="icon" />
+        <FaShoppingCart className="icon"  />
+      <Link to ="./"
+  <FaUser className="icon" />
+   
       </div>
      </header>
     </div>
