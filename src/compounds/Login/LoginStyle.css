@@ -1,0 +1,38 @@
+
+.login-container{
+    margin-top: 100px;
+    margin-left: 20%;
+    padding-left: 20px;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+.title-account{
+    padding-left: 20px;
+    color: gray;
+    font-size: 22px;
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    margin-left: 20%;
+}
+.account{
+    color: green;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 700;
+}
+.form-container{
+    padding-left    : 21%;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+   margin: 0;
+
+}

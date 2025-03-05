@@ -1,6 +1,11 @@
 import React from 'react'
 import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 export default function Navbar() {
+  const navigate =useNavigate();
+  const handleUserIconClick  =()=>{
+   navigate("/Login")
+  }
   return (
     <div>
      <header className='navbar'>
@@ -21,9 +26,8 @@ export default function Navbar() {
          <FaSearch className="search-icon"/>
         </div>
         <FaShoppingCart className="icon"  />
-      <Link to ="./"
-  <FaUser className="icon" />
-   
+      
+  <FaUser className="icon" onClick={handleUserIconClick} />
       </div>
      </header>
     </div>
