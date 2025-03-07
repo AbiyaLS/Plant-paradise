@@ -7,7 +7,7 @@ import "./compounds/Home/style/HomeStyle.css"
 import "./compounds/Home/style/Footer.css"
 import "./compounds/Login/LoginStyle.css"
 import "./compounds/Home/style/PlantsStyle.css"
-import "./compounds/Home/style/OutdoorPlants.css"
+// import "./compounds/Home/style/OutdoorPlants.css"
 import Login from './compounds/Login/Login';
 
 function App() {

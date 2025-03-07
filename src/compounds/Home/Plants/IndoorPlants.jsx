@@ -12,15 +12,8 @@ export default function IndoorPlants() {
     container.scrollLeft = container.scrollLeft;
   };
 
-  const handleMouseLeave = () => {
-    const container = containerRef.current;
-    container.isDown = false;
-  };
-
-  const handleMouseUp = () => {
-    const container = containerRef.current;
-    container.isDown = false;
-  };
+  const handleMouseLeave = () => (containerRef.current.isDown = false);
+  const handleMouseUp = () => (containerRef.current.isDown = false);
 
   const handleMouseMove = (e) => {
     const container = containerRef.current;
@@ -50,15 +43,9 @@ export default function IndoorPlants() {
               <h3>{image.title}</h3>
               <p>
                 Discount: {image.discount}<br />
-                <div className='dis-container'>Original Price:
-                  <div className='discount'>{image.originalPrice}<br /></div>
-                </div>
-                <div className='dis-container'>Discounted Price:
-                  <div className='discount'>{image.discountedPrice}<br /></div>
-                </div>
-                <div className='rating-container'>Customer Rating:
-                  <div className='rating'>{image.rating}</div>
-                </div>
+                <span className='dis-container'>Original Price: <span className='discount'>{image.originalPrice}<br /></span></span>
+                <span className='dis-container'>Discounted Price: <span className='discount'>{image.discountedPrice}<br /></span></span>
+                <span className='rating-container'>Customer Rating: <span className='rating'>{image.rating}</span></span>
               </p>
             </div>
           </div>

@@ -1,0 +1,68 @@
+const outdoorImageData = [
+    {
+      src: 'src/assets/p1.jpg',
+      alt: 'Outdoor Plant 1',
+      title: 'Outdoor Plant 1',
+      discount: '15%',
+      originalPrice: '₹2,999',
+      discountedPrice: '₹2,549',
+      rating: '★★★★☆',
+    },
+    {
+      src: 'src/assets/p2.jpg',
+      alt: 'Outdoor Plant 2',
+      title: 'Outdoor Plant 2',
+      discount: '20%',
+      originalPrice: '₹3,499',
+      discountedPrice: '₹2,799',
+      rating: '★★★★★',
+    },
+    {
+        src: 'src/assets/p3.jpg',
+        alt: 'Plant 3',
+        title: 'Plant 3',
+        discount: '30%',
+        originalPrice: '₹4,999',
+        discountedPrice: '₹3,499',
+        rating: '★★★★★',
+      },
+      {
+        src: 'src/assets/p4.jpg',
+        alt: 'Plant 4',
+        title: 'Plant 4',
+        discount: '15%',
+        originalPrice: '₹1,999',
+        discountedPrice: '₹1,699',
+        rating: '★★★★☆',
+      },
+      {
+          src: 'src/assets/p5.jpg',
+          alt: 'Plant 4',
+          title: 'Plant 4',
+          discount: '15%',
+          originalPrice: '₹1,999',
+          discountedPrice: '₹1,699',
+          rating: '★★★★☆',
+        },
+        {
+          src: 'src/assets/p6.jpg',
+          alt: 'Plant 4',
+          title: 'Plant 4',
+          discount: '15%',
+          originalPrice: '₹1,999',
+          discountedPrice: '₹1,699',
+          rating: '★★★★☆',
+        },
+        {
+          src: 'src/assets/p7.jpg',
+          alt: 'Plant 4',
+          title: 'Plant 4',
+          discount: '15%',
+          originalPrice: '₹1,999',
+          discountedPrice: '₹1,699',
+          rating: '★★★★☆',
+        },
+  ];
+  
+  export default outdoorImageData;
+  
